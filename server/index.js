@@ -2,6 +2,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
 const postRoutes = require("./routes/post")
+const cors = require('cors');
 
 const app = express();
 
@@ -10,6 +11,7 @@ const PORT = process.env.PORT || 8000;
 // middleware
 
 app.use(bodyParser.json());
+app.use(cors());
 
 //  connecting to DB
 

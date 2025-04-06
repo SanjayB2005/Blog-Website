@@ -4,7 +4,7 @@
     "content": "JavaScript frameworks have revolutionized web development by providing structured and efficient approaches to building modern web apps.",
     "category": "Web Development",
     "author": "Sanjay Kumar",
-    "image": "https://via.placeholder.com/600x400",
+    "image": "https://placehold.co/60X60?text=JavaScript Frameworks",
     "createdAt": "2025-04-06T10:00:00Z",
     "updatedAt": "2025-04-06T10:00:00Z"
   },
@@ -13,7 +13,7 @@
     "content": "Designing a good frontend involves more than just pretty colors. Here are 10 practical tips to enhance your UI/UX skills.",
     "category": "Design",
     "author": "Anita Verma",
-    "image": "https://via.placeholder.com/600x400",
+    "image": "https://placehold.co/60X60?text=Frontend Design",
     "createdAt": "2025-04-05T14:20:00Z",
     "updatedAt": "2025-04-05T14:20:00Z"
   },
@@ -22,7 +22,7 @@
     "content": "MongoDB allows for flexible schema design. Learn how to structure your documents effectively for performance and scalability.",
     "category": "Database",
     "author": "Ravi Sharma",
-    "image": "https://via.placeholder.com/600x400",
+    "image": "https://placehold.co/60X60?text=Schema Design",
     "createdAt": "2025-04-04T08:30:00Z",
     "updatedAt": "2025-04-04T08:30:00Z"
   },
@@ -31,7 +31,7 @@
     "content": "In the age of social media and short-form content, blogs remain a powerful tool for deep content creation and SEO.",
     "category": "Content Marketing",
     "author": "Priya Nair",
-    "image": "https://via.placeholder.com/600x400",
+    "image": "https://placehold.co/60X60?text=Blogging is Still Relevant",
     "createdAt": "2025-04-03T19:45:00Z",
     "updatedAt": "2025-04-03T19:45:00Z"
   },
@@ -40,7 +40,7 @@
     "content": "Node.js is a powerful tool for building fast and scalable backend applications. This guide walks you through the basics.",
     "category": "Backend Development",
     "author": "Suresh Babu",
-    "image": "https://via.placeholder.com/600x400",
+    "image": "https://placehold.co/60X60?text=Guide to Node.js",
     "createdAt": "2025-04-02T16:15:00Z",
     "updatedAt": "2025-04-02T16:15:00Z"
   }
