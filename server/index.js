@@ -19,7 +19,7 @@ mongoose.connect('mongodb://localhost:27017/blosSite')
 
 // connecting to routes
 
-app.use("api/posts", postRoutes);
+app.use("/api/posts", postRoutes);
 
 
 app.listen(PORT, () => console.log(`Server is running on port ${PORT}`));
