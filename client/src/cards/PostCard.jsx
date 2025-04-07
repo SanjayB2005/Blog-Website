@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const PostCard = ({Post}) => {
   return (
@@ -12,7 +13,7 @@ const PostCard = ({Post}) => {
                 <div className='flex flex-col leading-10 mt-4 sm:mt-0 sm:ml-10'>
                     <h2>{Post.title}</h2>
                     <p>{Post.content.substr(0,80)}...</p>
-                    <button className="bg-blue-500 text-white mt-4 rounded cursor-pointer w-32">Read More</button>
+                    <Link to={`/post/${Post._id}`} ><button className="bg-blue-500 text-white mt-4 rounded cursor-pointer w-32">Read More</button></Link>
                 </div>
             </div>
         </div>

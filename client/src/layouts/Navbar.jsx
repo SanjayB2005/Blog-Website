@@ -1,19 +1,20 @@
 import React, { useState } from 'react'
+import {  Link } from 'react-router-dom';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <div className='flex justify-between items-center bg-gray-800 text-white p-4 px-16 z-10 sticky top-0 fixed w-full'>
+    <div className='flex justify-between items-center bg-gray-800 text-white p-4 px-16 z-10 sticky top-0  w-full'>
         <a href='/'><h1 className='font-semibold text-lg'>My Blog</h1></a>
         
         {/* Desktop Menu */}
         <div className='hidden md:block'>
             <ul className='flex space-x-4 text-gray-300'>
-                <li className='hover:text-white cursor-pointer'>Home</li>
-                <li className='hover:text-white cursor-pointer'>Posts</li>
-                <li className='hover:text-white cursor-pointer'>About</li>
-                <li className='hover:text-white cursor-pointer'>Contact</li>
+                <Link to={'/'} className='hover:text-white cursor-pointer'>Home</Link>
+                <a className='hover:text-white cursor-pointer'>Posts</a>
+                <a className='hover:text-white cursor-pointer'>About</a>
+                <a className='hover:text-white cursor-pointer'>Contact</a>
             </ul>
         </div>
         
