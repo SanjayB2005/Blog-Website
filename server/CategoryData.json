@@ -1,0 +1,28 @@
+[
+    {
+      "name": "Web Development",
+      "slug": "web-development",
+      "description": "Topics related to frontend and backend web development frameworks and tools."
+    },
+    {
+      "name": "Design",
+      "slug": "design",
+      "description": "UI/UX design tips, visual aesthetics, and best practices for user interfaces."
+    },
+    {
+      "name": "Database",
+      "slug": "database",
+      "description": "Database design, NoSQL, SQL, and performance optimization techniques."
+    },
+    {
+      "name": "Content Marketing",
+      "slug": "content-marketing",
+      "description": "Strategies, techniques, and tools for blogging, SEO, and content planning."
+    },
+    {
+      "name": "Backend Development",
+      "slug": "backend-development",
+      "description": "Building APIs, server-side applications, and backend system architecture."
+    }
+  ]
+  
